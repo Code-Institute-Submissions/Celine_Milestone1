@@ -1,3 +1,33 @@
 .bg-primary{
 background-color: black !important;  
 }
+
+.bg-dark {
+background-color: black !important; 
+}
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+    background-color: rgb(121, 152, 159);
+}
+
+/** Button adaptations */
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color:rgb(121, 152, 159);
+    border-color: black;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: black;
+}
+/** END - Button adaptations */
+
+/** Divider */
+
+.hr.divider {
+border-color: rgb(121, 152, 159) !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #79989f;
+
+ #mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #79989f !important;

@@ -1,39 +1,49 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+SI IT homepage
+This is the homepage of SI/IT. SI/IT provides highly skilled developers from all over Europe, remotely or onsite. On this website the visitor can information about the company, its services and contact details.  
 
-Welcome celfie,
+UX
+This websites turns to stakeholders such as clients and employees
+-As a user (partner/client), I want to find information about the company and its services.
+-As a user (partner/client), I want to easy navigate and find contact details of the employees.
+-As a user (employee), I want to refer to this page as my workplace to different stakeholders such as potential clients/employees.
+-As a user (potential employees) I want to find out about open positions and contact details.   
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Features
+The website contains four sections – ”about”, ”services”, ”team” and ”contact”. The section ”about”, ”services” and contact is used to provide information only and in the section ”team” the user can send a message through a form.  In the footer the user can reach our linkedin page in a new browser.
 
-## Gitpod Reminders
+*Existing Features
+Feature 1 - Allows a user to send a message through a form.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+*Features Left to Implement
+This is features I would like to add in the future to make the page more useful:  
+When clicking on the pictures information about the person will be shown.
+Making the email clickable and enabling an email to open.
+The form has no connection to a server. The form may be changed to enable uploading a CV instead of a message, when e-mail enables.  
+We will add more colleagues in the team section
+Making the services clickable and show cases.
+ 
+Technologies Used
+?
+ 
+Testing
+Buttons in the heading work correct – About, Services, Team and Contact.
+Buttons ”MORE” and ”OUR SERVICES” is tested and works fine. When clicking on ”MORE” an orange frame shows up that dont want to disappear.    
+The form on the team section is tested. When clicking on the send button an error in appearing that tells the user to fill the fields. The form has no function and is not activated. However if a correct format email does not exist the form will not give an error.
+The page goal to provide users information and contact detail is achieved.
+Tested on all devices and sizes. When the third picture (Caroline) is placed to the left and not centered.  
+The Linkedin icon in the Footer opens in a new browser correctly but links to my page since the SI/IT does not exist.
 
-`python3 -m http.server`
+Deployment
+?
 
-A blue button should appear to click: *Make Public*,
+Content
+The content is written by me to give the users relevant information about the company.
 
-Another blue button should appear to click: *Open Browser*.
+Media
+The icons in this template were preinstalled from ”Font Awesome”. I have changed icons to adapt the content and used other icons from ”Font Awesome”. The photos are from my personal library and the main photo from the heading is a free downloaded picture from istockphoto.com.  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+Acknowledgements
+This is a free template downloaded from https://startbootstrap.com/themes/creative/.
+Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose use. A modern, flat design style works in unison with rich features and plugins making this theme a great boilerplate.
+I have made color adaptations to fit the color palette of SI/IT. Main colors are black, white, grey and blue. Icon adaptations and all pictures are changed. All the text is changed.
+In the custom made CSS file called ”custom.css” the changes are specified and override the premade css file. 
